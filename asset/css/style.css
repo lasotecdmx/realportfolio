@@ -1,0 +1,410 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar .container .nav-item{
+    padding: 0;
+    padding-left: 70px;
+}
+
+.navbar{
+    background: darkolivegreen;
+}
+
+.navbar .container .nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+/* banner */
+
+#banner{
+    background: burlywood;
+    height: 95vh;
+    width: 100%;
+}
+
+#banner .container h4{
+    color: white;
+    font-size: 2rem;
+}
+
+#banner .container .img-content img{
+    height: 70vh; 
+    margin: 5rem 0;
+    width: 400px;
+}
+
+#banner .container .text-content{
+    margin: 6rem 0;
+    text-align: center;
+}
+
+#banner .container h2{
+    color: white;
+    font-size: 3rem;
+}
+
+#banner .container p{
+    line-height: 1.3rem;
+}
+
+#banner .container span{
+    color: white;
+}
+
+#banner .container .text-content a{
+    border: 2px solid wheat;
+    text-decoration: none;
+    padding: .5rem .5rem;
+    margin-top: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    background: white;
+    border-radius: 2rem;
+}
+
+#banner .container .text-content h5{
+    margin-top: 2rem;
+    color: white;
+}
+
+#banner .container .text-content input{
+    background: black;
+    opacity: 0.7;
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+/* our team */
+
+#team{
+    height: 85vh;
+    padding-top: 4rem;
+    background: url(/asset/images/pink-bg.webp);
+}
+
+#team .container .card{
+    background: white;
+    height: 44vh;
+    margin-top: 2rem;
+}
+
+#team .container h3{
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 3rem;
+}
+
+#team .container .card a{
+    text-decoration: none;
+    margin-left: 4.5rem;
+    color: blue;
+    width: 7rem;
+    border: 1px solid black;
+    padding-left: .4rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    
+}
+
+#team .container .card h5{
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+
+}
+
+#team .container .card p{
+    color: black;
+    text-align: center;
+}
+
+#team .container .card:hover{
+    background: blue;
+}
+
+/* services */
+
+.head{
+    height: 20vh;
+    background: burlywood;
+}
+
+.head .line{
+    height: .5vh;
+    width: 10rem;
+    background-color: green;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.head h2{
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: bold;
+    height: 10vh;
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+#services #demo .carousel-indicators{
+    margin-bottom: 4rem;
+}
+
+#services .carousel-caption{
+    top: 30%;
+    background: darkolivegreen;
+    width: 400px;
+    height: 30vh;
+    opacity: 0.6;
+}
+
+/* preview-1 */
+
+.preview-1 .container .card{
+    height: 30vh;
+    width: 100%;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.preview-1 .container .card h2{
+    font-size: 3rem;
+    text-align: center;
+    color: darkolivegreen;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.preview-1 .container .card .line{
+    width: 30%;
+    height: .3vh;
+    background: darkgrey;
+    margin: 0 auto;
+}
+
+/* preview body */
+
+.preview{
+    width: 100%;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+}
+
+.preview .container .card .cont-section h5{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.preview .container .card{
+    background: url(/asset/images/pink-bg.webp);
+    margin-top: 3rem;
+}
+
+.preview .container .card .cont-section p{
+    color: black;
+}
+
+.preview .container .card .image-section{
+    margin: 0 auto;
+} 
+
+.preview .container .learn{
+    font-size: 1.rem;
+    border: 1px solid black;
+    margin-left: 32rem;
+    width: 8rem;
+    padding-top: .7rem;
+    padding-bottom: 2rem;
+    height: 7vh;
+    margin-top: 1.5rem;
+}
+
+.preview .container .learn a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* footer */
+
+.social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 4rem;
+    background: black;
+    height: 70vh;
+    opacity: 0.9;
+}
+
+.social h2{
+    color: white;
+    text-transform: capitalize;
+    opacity: .7;
+}
+
+.social .container .social-links{
+    color: red;
+}
+
+.social .container .dev ul li{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+/* register */
+
+.reg{
+    background: black;
+    height: 39vh;
+    opacity: 0.9;
+    width: 100%;
+}
+
+.reg .container h4{
+    color: white;
+    margin-left: 8rem;
+}
+
+.reg .container ::placeholder{
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.reg .container p{
+    color: white;
+}
+
+.reg .container a{
+    text-decoration: none;
+}
+
+.reg .container .line{
+    background-color: darkolivegreen;
+    height: .4vh;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.reg .container .copy h6{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.reg .container .register input{
+    border: 0;
+    outline: 0;
+    background: darkolivegreen;
+}
+
+.reg .container .register button{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    border: 0;
+    outline: none;
+    background: darkolivegreen;
+    color: white;
+}
+
+/* media querry */
+
+@media screen and (max-width: 500px){
+    #banner .container{
+        flex-direction: column;
+    }
+
+    #banner .container .img-content img{
+        width: 100%;
+        height: 60vh;
+        margin-top: 1rem;
+        margin-bottom: -3rem;
+    }
+
+    #banner{
+        height: 153vh;
+    }
+
+    /* our team */
+
+    #team{
+        height: 214vh;
+    }
+
+    #team .container .card a{
+        margin-left: 8rem;
+    }
+
+    #team .container .card{
+        margin-top: 1rem;
+    }
+
+    #services .carousel-caption{
+        background: darkolivegreen;
+        width: 250px;
+        height: 30vh;
+        opacity: 0.6;
+    }
+
+    #services #demo .carousel-inner img{
+        height: 91vh;
+        border: 1px solid 
+    }
+
+    /* preview-1 */
+    .preview-1 .container .card h2{
+        font-size: 1.8rem;
+    }
+
+    .preview-1 .container .card .line{
+        width: 12rem;
+    }
+
+    .preview-1 .container .card{
+        margin-top: 1rem;
+        height: 19vh;
+    }
+
+    .preview-1 .container .card h2{
+        padding-top: 0;
+    }
+
+    /* preview body */
+
+    .preview{
+        height: 246vh;
+    }
+
+    .preview .container .card{
+        margin-top: .5rem;
+    }
+    .preview .container .card .cont-section h5{
+        font-weight: 800;
+    }
+}
